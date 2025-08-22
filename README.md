@@ -8,7 +8,6 @@ A clean, responsive car rental site built with **Vite + React** and **Tailwind C
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
 - [Customization](#customization)
 - [Available Scripts](#available-scripts)
 
@@ -34,38 +33,11 @@ A clean, responsive car rental site built with **Vite + React** and **Tailwind C
 
 ### Install
 
-# clone the repo first (example)
-git clone <repo-url>
-cd <Path to the project>
-
 # install deps
 npm install
 
 ### Run Dev
 npm run dev
-# open the URL printed in the terminal (usually http://localhost:5173)
-
-## Project Structure
-.
-├─ public/
-├─ src/
-│  ├─ assets/                 # images (e.g., car PNGs)
-│  ├─ components/
-│  │  ├─ Navbar/
-│  │  ├─ Hero/
-│  │  ├─ About/
-│  │  ├─ Services/
-│  │  ├─ CarList/
-│  │  ├─ Testimonial/
-│  │  ├─ AppStoreBanner/
-│  │  ├─ Contact/
-│  │  └─ Footer/
-│  ├─ App.jsx                 # page composition + AOS init + theme handling
-│  ├─ main.jsx                # React root
-│  └─ index.css               # Tailwind imports + global styles
-├─ index.html
-├─ package.json
-└─ README.md
 
 
 ## Customization
@@ -80,6 +52,6 @@ npm run dev
 
 
 ## Available Scripts
-npm run dev       # start dev server
-npm run build     # production build (to /dist)
-npm run preview   # preview the production build
+- npm run dev       # start dev server.
+- npm run build     # production build (to /dist).
+- npm run preview   # preview the production build.
